@@ -12,10 +12,16 @@ commands:
     usage: /setspawn
     permission: easyspawn.setspawn
     permission-message: You don't have <permission>
+  bed:
+    description: Teleports player to there bed.
+    usage: /bed
+    permission: easyspawn.bed
+    permission-message: You don't have <permission>
 permissions:
   easyspawn.spawn:
-    description: Teleports you to spawn
     default: true
   easyspawn.setspawn:
-    description: Sets spawn location
     default: op
+  easyspawn.bed:
+    default: true
+    
