@@ -4,12 +4,12 @@ version: 1.7.2
 commands:
   spawn:
     description: Teleports you to spawn
-    usage: /spawn
+    usage: /spawn [world]
     permission: easyspawn.spawn
     permission-message: You don't have <permission>
   setspawn:
     description: Sets spawn location
-    usage: /setspawn
+    usage: /setspawn [world] [x] [y] [z]
     permission: easyspawn.setspawn
     permission-message: You don't have <permission>
   bed:
