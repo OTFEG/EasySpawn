@@ -1,12 +1,12 @@
-package net.jimmy1248.easyspawn;
+package net.jimmy1248.easyspawn.commandhandlers;
 
-import net.jimmy1248.easyspawn.commandhandlers.Sender;
+import net.jimmy1248.easyspawn.EasySpawn;
 
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 public class Bed {
-	static boolean bed(EasySpawn plugin,CommandSender sender){
+	public static boolean bed(EasySpawn plugin,CommandSender sender){
 		Player player = Sender.isPlayer(sender); 
 		if(player==null) return true;
 			if(player.getBedSpawnLocation()!=null){

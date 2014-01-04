@@ -1,5 +1,6 @@
 package net.jimmy1248.easyspawn;
 
+import net.jimmy1248.easyspawn.commandhandlers.Bed;
 import net.jimmy1248.easyspawn.commandhandlers.Spawn;
 
 import org.bukkit.command.Command;
