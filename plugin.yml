@@ -1,6 +1,6 @@
 name: EasySpawn
 main: net.jimmy1248.easyspawn.EasySpawn
-version: 1.7.2
+version: 1.6.4
 commands:
   spawn:
     description: Teleports you to spawn
