@@ -10,6 +10,7 @@ public class EasySpawn extends JavaPlugin{
 	public void onEnable() {
 		getCommand("spawn").setExecutor(this);
 		getCommand("setspawn").setExecutor(this);
+		getCommand("bed").setExecutor(this);
 	}
 	
 	@Override
@@ -26,6 +27,13 @@ public class EasySpawn extends JavaPlugin{
 				player.getWorld().setSpawnLocation(player.getLocation().getBlockX(),
 						player.getLocation().getBlockY(),player.getLocation().getBlockZ());
 				player.sendMessage("Spawn set.");
+				return true;
+			}
+			if(command.getName().equalsIgnoreCase("bed")){
+				if(player.getBedSpawnLocation()!=null){
+					player.teleport(player.getBedSpawnLocation());
+					player.sendMessage("You have been teleported to your bed.");
+				}else sender.sendMessage("Your bed cannot be found.");
 				return true;
 			}
 		}
