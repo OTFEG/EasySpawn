@@ -19,6 +19,7 @@ Usage
 /bed 
 	
 	Teleports player to their bed
+	Added in 1.7.5 version
 	
 Permissions
 -----------
