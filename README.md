@@ -41,6 +41,4 @@ Permissions
     
     by default this works for non-opped players
     
-Source code be found 
-[here](https://github.com/jimmy1248/EasySpawn)
-on github.
+Source code be found [here](https://github.com/jimmy1248/EasySpawn) on github.
