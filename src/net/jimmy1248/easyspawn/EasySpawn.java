@@ -6,13 +6,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class EasySpawn extends JavaPlugin{
-	@Override
-	public void onEnable() {
-		getCommand("spawn").setExecutor(this);
-		getCommand("setspawn").setExecutor(this);
-		getCommand("bed").setExecutor(this);
-	}
-	
+		
 	@Override
 	public boolean onCommand(CommandSender sender, Command command,
 			String label, String[] args) {

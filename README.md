@@ -16,6 +16,10 @@ Usage
 
 	Sets spawn location.
 
+/bed 
+	
+	Teleports player to their bed
+	
 Permissions
 -----------
 
@@ -31,6 +35,12 @@ Permissions
 	
 	works if opped
 
+/bed
+
+    easyspawn.bed
+    
+    by default this works for non-opped players
+    
 Source code be found 
 [here](https://github.com/jimmy1248/EasySpawn)
 on github.
