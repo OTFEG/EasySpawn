@@ -1,10 +1,10 @@
 EasySpawn
 =========
 
-EasySpawn is a simple plugin, providing two commands; /spawn and /setspawn.
+EasySpawn is a simple plugin, providing three commands; /spawn, /setspawn and /bed.
 These will set the spawn location for that world only.
 So, you can set different spawn locations for different worlds.
-Players can do /spawn to get to the set spawn point, and administrators can do /setspawn for world management.
+
 
 Usage
 ------
